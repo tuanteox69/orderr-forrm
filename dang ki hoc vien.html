@@ -1,10 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
+    <meta charset="UTF-8">
+    <title>Đăng Ký Học Viên</title>
+    <style>
+        form{
+            background: khaki;
+            width: 330px;
+        }
+    </style>
 </head>
 <body>
-$END$
+<form>
+    <table>
+        <tr>
+            <th style="color: blue;background:lightskyblue" colspan="3">ĐĂNG KÝ HỌC VIÊN</th>
+        </tr>
+        <tr>
+            <th>Họ và tên</th>
+            <td>
+                <input type = "text" name="your name" placeholder="your name" size="30"/>
+            </td>
+        <tr>
+        <th>Ngày sinh</th>
+        <td>
+            <input size="20"/>
+        </td>
+        <tr>
+        <th>Giới Tính</th>
+        <td>
+            <input type="radio"/> Nam
+
+            <input type="radio" /> Nữ
+        </td>
+    </tr>
+        <tr>
+            <th>Địa Chỉ</th>
+                <td><input style="height:50px" >
+                </td>
+        </tr>
+        <tr>
+            <th>Lớp</th>
+            <td>
+                <select>
+                    <option>--chọn lớp--</option>
+                    <option>A</option>
+                    <option>B</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <th>Email</th>
+            <td><input></td>
+        </tr>
+        <tr>
+            <th>Điện thoại</th>
+            <td><input></td>
+        </tr>
+        <tr>
+            <th> </th>
+            <td>
+                <input type="reset"value="Đăng Ký">
+                <input type="reset"value="Nhập Lại">
+            </td>
+        </tr>
+    </table>
+</form>
+
 </body>
 </html>

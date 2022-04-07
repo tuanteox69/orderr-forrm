@@ -1,10 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
+    <meta charset="UTF-8">
+    <title>SỞ THÍCH CỦA BẠN</title>
+    <style>
+        body{
+            background: aquamarine;
+            width: 600px;
+        }
+        form{
+            background:white;
+            width: 500px;
+        }
+        td{
+           color: orangered;
+        }
+        th{
+            color: blue;
+        }
+    </style>
 </head>
 <body>
-$END$
+<form>
+<table>
+    <tr>
+        <th style="color: antiquewhite;background: orangered" colspan="3">SỞ THÍCH CỦA BẠN</th>
+    </tr>
+    <tr>
+        <th>Họ và tên</th>
+        <td>
+            <input type = "text" name="your name" placeholder="your name" size="30"/>
+        </td>
+
+    </tr>
+    <tr>
+        <th>Email</th>
+        <td>
+        <input type = "text" name="email" placeholder="email" size="25"/>
+        </td>
+    </tr>
+</table>
+    <tr>
+        <table>
+        <th>Sở thích</th>
+        <td rowspan="3">
+        <td>
+            <input type="checkbox" name="rd"/> Thể Thao <br/>
+            <input type="checkbox" name="rd"/> Lướt web <br/>
+            <input type="checkbox" name="rd"/> Du lịch <br/>
+        </td>
+        <td>
+            <input type="checkbox" name="rd"/>Âm nhạc  <br/>
+            <input type="checkbox" name="rd"/> Chơi game <br/>
+        </td>
+        <td>
+            <input type="checkbox" name="rd"/> Đọc sách <br/>
+            <input type="checkbox" name="rd"/> Điện ảnh <br/>
+
+        </td>
+        </td>
+    </tr>
+            <th>
+                <td>
+            <input type="reset" name="Submit Form"value="Submit Form"></td>
+            <td>
+                <input type="reset" name="Reset Form"value="Reset Form"></td>
+            </th>
+        </table>
+</form>
 </body>
 </html>
